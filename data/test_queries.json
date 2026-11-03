@@ -1,0 +1,559 @@
+[
+ {
+  "id": "f01",
+  "query": "What is your refund policy?",
+  "group": "faq",
+  "intent": "faq_01",
+  "expected_docs": [
+   "refund"
+  ]
+ },
+ {
+  "id": "f02",
+  "query": "How do I cancel my subscription?",
+  "group": "faq",
+  "intent": "faq_02",
+  "expected_docs": [
+   "cancel"
+  ]
+ },
+ {
+  "id": "f03",
+  "query": "How much does the Pro plan cost?",
+  "group": "faq",
+  "intent": "faq_03",
+  "expected_docs": [
+   "pricing"
+  ]
+ },
+ {
+  "id": "f04",
+  "query": "What happens when I run out of storage?",
+  "group": "faq",
+  "intent": "faq_04",
+  "expected_docs": [
+   "storage_limits"
+  ]
+ },
+ {
+  "id": "f05",
+  "query": "How do I reset my password?",
+  "group": "faq",
+  "intent": "faq_05",
+  "expected_docs": [
+   "password_reset"
+  ]
+ },
+ {
+  "id": "f06",
+  "query": "How do I turn on two-factor authentication?",
+  "group": "faq",
+  "intent": "faq_06",
+  "expected_docs": [
+   "two_factor"
+  ]
+ },
+ {
+  "id": "f07",
+  "query": "How do I share a file with a link?",
+  "group": "faq",
+  "intent": "faq_07",
+  "expected_docs": [
+   "share_link"
+  ]
+ },
+ {
+  "id": "f08",
+  "query": "What is the maximum file size I can upload?",
+  "group": "faq",
+  "intent": "faq_08",
+  "expected_docs": [
+   "file_size"
+  ]
+ },
+ {
+  "id": "f09",
+  "query": "My files are not syncing, what should I do?",
+  "group": "faq",
+  "intent": "faq_09",
+  "expected_docs": [
+   "sync_issues"
+  ]
+ },
+ {
+  "id": "f10",
+  "query": "How can I recover a deleted file?",
+  "group": "faq",
+  "intent": "faq_10",
+  "expected_docs": [
+   "recover_deleted"
+  ]
+ },
+ {
+  "id": "f11",
+  "query": "How long is version history kept?",
+  "group": "faq",
+  "intent": "faq_11",
+  "expected_docs": [
+   "version_history"
+  ]
+ },
+ {
+  "id": "f12",
+  "query": "Is my data encrypted?",
+  "group": "faq",
+  "intent": "faq_12",
+  "expected_docs": [
+   "encryption"
+  ]
+ },
+ {
+  "id": "f13",
+  "query": "Are you SOC 2 certified?",
+  "group": "faq",
+  "intent": "faq_13",
+  "expected_docs": [
+   "compliance"
+  ]
+ },
+ {
+  "id": "f14",
+  "query": "Can I store my data in the EU?",
+  "group": "faq",
+  "intent": "faq_14",
+  "expected_docs": [
+   "data_residency"
+  ]
+ },
+ {
+  "id": "f15",
+  "query": "What operating systems does the desktop app support?",
+  "group": "faq",
+  "intent": "faq_15",
+  "expected_docs": [
+   "desktop_app"
+  ]
+ },
+ {
+  "id": "f16",
+  "query": "Can I use my files offline?",
+  "group": "faq",
+  "intent": "faq_16",
+  "expected_docs": [
+   "offline"
+  ]
+ },
+ {
+  "id": "f17",
+  "query": "Do you have an API?",
+  "group": "faq",
+  "intent": "faq_17",
+  "expected_docs": [
+   "api_access"
+  ]
+ },
+ {
+  "id": "f18",
+  "query": "Where can I download invoices?",
+  "group": "faq",
+  "intent": "faq_18",
+  "expected_docs": [
+   "invoices"
+  ]
+ },
+ {
+  "id": "f19",
+  "query": "Which payment methods do you accept?",
+  "group": "faq",
+  "intent": "faq_19",
+  "expected_docs": [
+   "payment_methods"
+  ]
+ },
+ {
+  "id": "f20",
+  "query": "How do I add a new member to my team?",
+  "group": "faq",
+  "intent": "faq_20",
+  "expected_docs": [
+   "team_admin"
+  ]
+ },
+ {
+  "id": "p01",
+  "query": "How do I get my money back?",
+  "group": "paraphrase",
+  "intent": "faq_01",
+  "expected_docs": [
+   "refund"
+  ]
+ },
+ {
+  "id": "p02",
+  "query": "I want to end my StashBox plan. What are the steps?",
+  "group": "paraphrase",
+  "intent": "faq_02",
+  "expected_docs": [
+   "cancel"
+  ]
+ },
+ {
+  "id": "p03",
+  "query": "What's the monthly price for Pro?",
+  "group": "paraphrase",
+  "intent": "faq_03",
+  "expected_docs": [
+   "pricing"
+  ]
+ },
+ {
+  "id": "p04",
+  "query": "What if I hit my storage cap?",
+  "group": "paraphrase",
+  "intent": "faq_04",
+  "expected_docs": [
+   "storage_limits"
+  ]
+ },
+ {
+  "id": "p05",
+  "query": "I forgot my password and can't log in.",
+  "group": "paraphrase",
+  "intent": "faq_05",
+  "expected_docs": [
+   "password_reset"
+  ]
+ },
+ {
+  "id": "p06",
+  "query": "How can I add an extra security step to my login with an authenticator app?",
+  "group": "paraphrase",
+  "intent": "faq_06",
+  "expected_docs": [
+   "two_factor"
+  ]
+ },
+ {
+  "id": "p07",
+  "query": "Can I give someone access to a file through a URL?",
+  "group": "paraphrase",
+  "intent": "faq_07",
+  "expected_docs": [
+   "share_link"
+  ]
+ },
+ {
+  "id": "p08",
+  "query": "What's the biggest file I'm allowed to upload?",
+  "group": "paraphrase",
+  "intent": "faq_08",
+  "expected_docs": [
+   "file_size"
+  ]
+ },
+ {
+  "id": "p09",
+  "query": "Nothing is syncing from my computer. How do I fix it?",
+  "group": "paraphrase",
+  "intent": "faq_09",
+  "expected_docs": [
+   "sync_issues"
+  ]
+ },
+ {
+  "id": "p10",
+  "query": "I accidentally deleted a document. Can I get it back?",
+  "group": "paraphrase",
+  "intent": "faq_10",
+  "expected_docs": [
+   "recover_deleted"
+  ]
+ },
+ {
+  "id": "p11",
+  "query": "How far back can I restore older versions of a file?",
+  "group": "paraphrase",
+  "intent": "faq_11",
+  "expected_docs": [
+   "version_history"
+  ]
+ },
+ {
+  "id": "p12",
+  "query": "How do you protect my files with encryption?",
+  "group": "paraphrase",
+  "intent": "faq_12",
+  "expected_docs": [
+   "encryption"
+  ]
+ },
+ {
+  "id": "p13",
+  "query": "Do you hold SOC 2 or ISO 27001 certification?",
+  "group": "paraphrase",
+  "intent": "faq_13",
+  "expected_docs": [
+   "compliance"
+  ]
+ },
+ {
+  "id": "p14",
+  "query": "Is there a European data center option?",
+  "group": "paraphrase",
+  "intent": "faq_14",
+  "expected_docs": [
+   "data_residency"
+  ]
+ },
+ {
+  "id": "p15",
+  "query": "Does the desktop client run on Linux?",
+  "group": "paraphrase",
+  "intent": "faq_15",
+  "expected_docs": [
+   "desktop_app"
+  ]
+ },
+ {
+  "id": "p16",
+  "query": "Can I access my files without internet?",
+  "group": "paraphrase",
+  "intent": "faq_16",
+  "expected_docs": [
+   "offline"
+  ]
+ },
+ {
+  "id": "p17",
+  "query": "Is there a REST API for developers?",
+  "group": "paraphrase",
+  "intent": "faq_17",
+  "expected_docs": [
+   "api_access"
+  ]
+ },
+ {
+  "id": "p18",
+  "query": "How do I get a receipt for my payment?",
+  "group": "paraphrase",
+  "intent": "faq_18",
+  "expected_docs": [
+   "invoices"
+  ]
+ },
+ {
+  "id": "p19",
+  "query": "Can I pay with UPI?",
+  "group": "paraphrase",
+  "intent": "faq_19",
+  "expected_docs": [
+   "payment_methods"
+  ]
+ },
+ {
+  "id": "p20",
+  "query": "What's the process to invite a colleague to our workspace?",
+  "group": "paraphrase",
+  "intent": "faq_20",
+  "expected_docs": [
+   "team_admin"
+  ]
+ },
+ {
+  "id": "n01",
+  "query": "How do I cancel my account deletion request?",
+  "group": "nearmiss",
+  "intent": "nm_01",
+  "expected_docs": [
+   "account_delete"
+  ]
+ },
+ {
+  "id": "n02",
+  "query": "How do I recover a deleted account?",
+  "group": "nearmiss",
+  "intent": "nm_02",
+  "expected_docs": [
+   "account_delete"
+  ]
+ },
+ {
+  "id": "n03",
+  "query": "How do I share a folder with a specific teammate as a viewer?",
+  "group": "nearmiss",
+  "intent": "nm_03",
+  "expected_docs": [
+   "share_permissions"
+  ]
+ },
+ {
+  "id": "n04",
+  "query": "What is the maximum number of API requests per minute?",
+  "group": "nearmiss",
+  "intent": "nm_04",
+  "expected_docs": [
+   "api_access"
+  ]
+ },
+ {
+  "id": "n05",
+  "query": "How do I turn on single sign-on for my company?",
+  "group": "nearmiss",
+  "intent": "nm_05",
+  "expected_docs": [
+   "sso"
+  ]
+ },
+ {
+  "id": "n06",
+  "query": "How long are deleted files kept in Trash?",
+  "group": "nearmiss",
+  "intent": "nm_06",
+  "expected_docs": [
+   "recover_deleted"
+  ]
+ },
+ {
+  "id": "n07",
+  "query": "How quickly does support respond to Pro users?",
+  "group": "nearmiss",
+  "intent": "nm_07",
+  "expected_docs": [
+   "support"
+  ]
+ },
+ {
+  "id": "n08",
+  "query": "Does the mobile app support offline files?",
+  "group": "nearmiss",
+  "intent": "nm_08",
+  "expected_docs": [
+   "offline"
+  ]
+ },
+ {
+  "id": "n09",
+  "query": "Do you offer HIPAA compliance?",
+  "group": "nearmiss",
+  "intent": "nm_09",
+  "expected_docs": [
+   "compliance"
+  ]
+ },
+ {
+  "id": "n10",
+  "query": "Can I upload a 3 GB file from my browser?",
+  "group": "nearmiss",
+  "intent": "nm_10",
+  "expected_docs": [
+   "file_size"
+  ]
+ },
+ {
+  "id": "h01",
+  "query": "Compare the Pro and Team plans and explain which is better for a 5-person company that needs SSO.",
+  "group": "hard",
+  "intent": "hard_01",
+  "expected_docs": [
+   "pricing",
+   "sso",
+   "share_permissions"
+  ]
+ },
+ {
+  "id": "h02",
+  "query": "If I cancel my subscription today, what happens to my files, and can I still get my money back?",
+  "group": "hard",
+  "intent": "hard_02",
+  "expected_docs": [
+   "cancel",
+   "refund"
+  ]
+ },
+ {
+  "id": "h03",
+  "query": "We need GDPR compliance and EU data storage for our team. What do we need to set up and what plan is required?",
+  "group": "hard",
+  "intent": "hard_03",
+  "expected_docs": [
+   "compliance",
+   "data_residency",
+   "pricing"
+  ]
+ },
+ {
+  "id": "h04",
+  "query": "Why are my uploads failing, and should I upgrade my plan or use the desktop app?",
+  "group": "hard",
+  "intent": "hard_04",
+  "expected_docs": [
+   "storage_limits",
+   "file_size",
+   "desktop_app"
+  ]
+ },
+ {
+  "id": "h05",
+  "query": "Walk me through securing our team account step by step, including authentication, encryption and permissions.",
+  "group": "hard",
+  "intent": "hard_05",
+  "expected_docs": [
+   "two_factor",
+   "encryption",
+   "sso",
+   "share_permissions"
+  ]
+ },
+ {
+  "id": "h06",
+  "query": "What is the difference between Trash retention and version history, and which one should I rely on to recover an overwritten file?",
+  "group": "hard",
+  "intent": "hard_06",
+  "expected_docs": [
+   "recover_deleted",
+   "version_history"
+  ]
+ },
+ {
+  "id": "h07",
+  "query": "An employee left the company. How do I remove their access and keep their files, and how long do I have?",
+  "group": "hard",
+  "intent": "hard_07",
+  "expected_docs": [
+   "team_admin",
+   "share_permissions"
+  ]
+ },
+ {
+  "id": "h08",
+  "query": "How do the annual discount, prorated upgrades and invoices work together if I switch from Pro to Team mid-year?",
+  "group": "hard",
+  "intent": "hard_08",
+  "expected_docs": [
+   "pricing",
+   "storage_limits",
+   "invoices"
+  ]
+ },
+ {
+  "id": "h09",
+  "query": "Should I use API tokens or SSO for automating file uploads from our internal tools, and what are the rate limits?",
+  "group": "hard",
+  "intent": "hard_09",
+  "expected_docs": [
+   "api_access",
+   "sso"
+  ]
+ },
+ {
+  "id": "h10",
+  "query": "Compare the support options and data residency across all plans, and recommend what a healthcare startup should choose.",
+  "group": "hard",
+  "intent": "hard_10",
+  "expected_docs": [
+   "support",
+   "data_residency",
+   "compliance"
+  ]
+ }
+]

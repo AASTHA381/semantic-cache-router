@@ -1,0 +1,14 @@
+[
+ {"id": "u01", "query": "Can I use Google Authenticator for 2FA?", "expected_tier": "small", "expected_docs": ["two_factor"]},
+ {"id": "u02", "query": "Why was my reset link rejected?", "expected_tier": "small", "expected_docs": ["password_reset"]},
+ {"id": "u03", "query": "What's the file size cap on the free plan?", "expected_tier": "small", "expected_docs": ["file_size"]},
+ {"id": "u04", "query": "Does annual billing save money?", "expected_tier": "small", "expected_docs": ["pricing"]},
+ {"id": "u05", "query": "Hi, quick question: how many backup codes do I get for 2FA, and where do I find them?", "expected_tier": "small", "expected_docs": ["two_factor"]},
+ {"id": "u06", "query": "Which regions can I pick for data storage?", "expected_tier": "small", "expected_docs": ["data_residency"]},
+ {"id": "u07", "query": "My team of 4 needs SSO, EU data storage and 20 TB total. What plan fits and what will it cost per month?", "expected_tier": "large", "expected_docs": ["sso", "data_residency", "pricing"]},
+ {"id": "u08", "query": "We deleted a project folder 45 days ago and the admin who owned it has left the company. Can we still get it back?", "expected_tier": "large", "expected_docs": ["recover_deleted", "team_admin"]},
+ {"id": "u09", "query": "Is it better to give contractors Editor access to a shared folder or send them expiring links?", "expected_tier": "large", "expected_docs": ["share_permissions", "share_link"]},
+ {"id": "u10", "query": "I'm on Pro, hit my storage limit mid-month and want to upgrade. How will billing work, and can I still get a refund if I change my mind?", "expected_tier": "large", "expected_docs": ["storage_limits", "pricing", "refund"]},
+ {"id": "u11", "query": "What changes if I move from Free to Team: file size limits, version history and support?", "expected_tier": "large", "expected_docs": ["file_size", "version_history", "support"]},
+ {"id": "u12", "query": "Our auditor wants proof of encryption and certifications, and we use customer-managed keys. What can you provide?", "expected_tier": "large", "expected_docs": ["encryption", "compliance"]}
+]

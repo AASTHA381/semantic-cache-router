@@ -1,0 +1,8 @@
+fastembed
+numpy
+python-dotenv
+openai
+pytest
+streamlit
+pandas
+altair
